@@ -13,6 +13,11 @@ try{
 		{
 		    System.out.println(i+"x"+m+"="+(m*i));
 		}
+	        if(n<0)
+		{
+		    System.out.println("Invalid");
+		}
+	       
 	}
 	    catch(Exception e)
 	    {
